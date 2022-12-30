@@ -14,4 +14,8 @@ export class SidebarComponent {
     return this.gifsService.historial;
   }
 
+  public buscarTermino( termino :string){
+    this.gifsService.buscarGifs(termino);
+  }
+
 }
